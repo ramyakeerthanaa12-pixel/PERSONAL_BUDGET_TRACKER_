@@ -1,0 +1,1 @@
+Income: 0    Expense: 7000    Category:  Shopping
