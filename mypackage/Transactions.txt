@@ -1,1 +1,4 @@
-Income: 0    Expense: 7000    Category:  Shopping
+Income: 50000
+Expense: 2000    Category: Groceries
+Expense: 1200    Category: Beauty
+Expense: 8000    Category: Education

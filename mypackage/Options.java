@@ -19,10 +19,10 @@ public class Options{
         System.out.println("6. Highest Spending Category");
         System.out.println("7. Set Monthly Budget");
         System.out.println("8. View Budget Status");
-        System.out.println("9. Search by Category");
-        System.out.println("10. Delete Transaction");
-        System.out.println("11. Save Data");
-        System.out.println("12. Exit");
+        //System.out.println("9. Search by Category");
+        System.out.println("9. Delete Transaction");
+        System.out.println("10. Save Data");
+        System.out.println("11. Exit");
 
         System.out.println();
 
@@ -33,6 +33,11 @@ public class Options{
         Add a=new Add();
         Balance b=new Balance();
         Category c=new Category();
+        View v=new View();
+        Save s=new Save();
+        Highest_Spending h=new Highest_Spending();
+        Set_Monthly_Budget s1=new Set_Monthly_Budget();
+        BudgetStatus b1=new BudgetStatus();
         //View v=new View();
         //while(true){
         
@@ -46,17 +51,34 @@ public class Options{
             case 3:
                 b.balance();
                 break;
-
             case 4:
                 //Add a=new Add();
-                View v=new View();
                 v.viewTransactions();
                 break;
             case 5:
                 c.category();
                 break;
+            case 6:
+                h.Spending();
+                break;
+            case 7:
+                s1.Set();
+                break;
+            case 8:
+                b1.viewStatus();
+                break;
 
-            case 12:
+            case 9:
+                c.Del();
+                break;
+
+            case 10:
+                s.save();
+                break;
+
+
+
+            case 11:
                 System.exit(0);
 
             default:
